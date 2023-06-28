@@ -8,6 +8,7 @@
 \fam\dad\e.go // as symbolic link to /fam/mom/e.go
 
 cd \fam
+
 go work init
 go work use dad
 go work use bro
@@ -22,6 +23,15 @@ mklink e.go ..\mom\e.go
 
 go get rsc.io/quote
 go run .
+
+cd ..
+git init
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abakum/fam.git
+git push -u origin main
+
 */
 
 // fam/dad/main.go
