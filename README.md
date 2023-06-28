@@ -1,7 +1,7 @@
 # fam
 golang modules are just like family members
-- [VS Code multi-root workspace](https://code.visualstudio.com/docs/editor/multi-root-workspaces)
-- [golang workspace](https://github.com/golang/tools/blob/master/gopls/doc/workspace.md)
+- [VS Code multi-root workspace](https://code.visualstudio.com/docs/editor/multi-root-workspaces) for [fam.code-workspace](fam.code-workspace)
+- [golang workspace](https://github.com/golang/tools/blob/master/gopls/doc/workspace.md) for [go.work](go.work)
 ## Usage
 ```
 cd \fam
